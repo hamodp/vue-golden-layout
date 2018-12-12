@@ -33,6 +33,20 @@
 			</gl-row>
 			<gl-component template="bottom"  />
 		</gl-col>
+
+    <gl-row>
+      test
+    </gl-row>
+
+    <gl-dstack dstack-id="stack2">
+      test2
+    </gl-dstack>
+
+      <gl-router>
+				<gl-route name="r-a" />
+				<template slot="route">
+				</template>
+			</gl-router>
 	</golden-layout>
 </div>
 </template>
