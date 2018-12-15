@@ -1,6 +1,6 @@
 <template>
 <div>
-	<button class="reset">Reset localStorage</button>
+	<!--button class="reset">Reset localStorage</button>
 	<golden-layout class="hscreen">
 		<div slot="stackCtr" class="test-template">
 			Added item
@@ -35,7 +35,10 @@
 		</gl-col>
 
     <gl-row>
+			<gl-component title="gl-row">
       test
+			</gl-component>
+			<gl-component template="bottom" />
     </gl-row>
 
     <gl-dstack dstack-id="stack2">
@@ -47,6 +50,25 @@
 				<template slot="route">
 				</template>
 			</gl-router>
-	</golden-layout>
+	</golden-layout-->
+
+
+	<!--golden-layout class="hscreen">
+    <template slot="bottom">
+        bottom
+    </template>
+    <gl-row ref="myStack" dstack-id="dynamics">
+        <gl-component template="bottom" :closable="false" />
+    </gl-row>
+    <gl-component template="bottom" />
+	</golden-layout-->
+
+
 </div>
 </template>
+
+
+
+<script>
+
+</script>
